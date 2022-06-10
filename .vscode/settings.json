@@ -1,0 +1,8 @@
+{
+  "gitlens.codeLens.enabled": true,
+  "git.enabled": true,
+  "git.enableSmartCommit": false,
+  "git.ignoreLegacyWarning": false,
+  "gitlens.codeLens.includeSingleLineSymbols": false,
+  "gitlens.advanced.caching.enabled": true
+}
