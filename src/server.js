@@ -9,6 +9,8 @@ const app = express();
 const port = process.env.PORT || 3000; // trường hợp bị lỗi sẽ lấy port = 3000
 console.log("check port", port);
 
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 // set up view Engine
 configViewEngine(app);
 
